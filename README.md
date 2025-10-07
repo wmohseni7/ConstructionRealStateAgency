@@ -103,14 +103,16 @@ For local development:
 ```bash
 php artisan serve
 ```
-Visit http://localhost:8000 in your browser.
+Visit ```http://localhost:8000 ```in your browser.
 
 User Roles & Permissions
+```
 Admin: Full access to all modules.
 
 Manager: Limited access to projects and properties.
 
 Employee: Can view and manage assigned tasks.
+```
 
 Roles and permissions are managed via Spatie’s package. You can modify or extend roles in database/seeders/RoleSeeder.php.
 
@@ -119,16 +121,11 @@ Primary Language: Persian (Farsi)
 
 English Version: Under development
 
-Contributing
-Fork the repository
 
-Create a feature branch (git checkout -b feature/YourFeature)
 
-Commit your changes (git commit -m 'Add YourFeature')
 
-Push to the branch (git push origin feature/YourFeature)
 
-Open a Pull Request
+
 
 License
 MIT License © Wali Mohseni
