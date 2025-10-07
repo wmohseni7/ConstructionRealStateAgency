@@ -1,5 +1,5 @@
 # Construction & Property Management MIS
-
+![Project Screenshot](https://github.com/wmohseni7/ConstructionRealStateAgency/blob/main/public/assets/images/gallery/4025163.jpg?raw=true)
 This is a **Management Information System (MIS)** designed for a construction and property dealing company. Built with **Laravel**, **Bootstrap**, **jQuery**, and **AJAX**, this system streamlines operations including project management, property listings, client management, and user authentication.  
 
 Authentication is powered by the **[Spatie Laravel Permission](https://spatie.be/docs/laravel-permission/v5/introduction)** package for robust role and permission management.
