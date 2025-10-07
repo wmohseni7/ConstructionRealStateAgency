@@ -69,9 +69,9 @@ npm run build
 cp .env.example .env
 ```
 Edit .env with your database and environment settings:
-```bash
+
 env
-Copy code
+```bash
 APP_NAME="Construction MIS"
 APP_URL=http://localhost
 DB_CONNECTION=mysql
