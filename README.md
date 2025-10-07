@@ -22,10 +22,10 @@ Authentication is powered by the **[Spatie Laravel Permission](https://spatie.be
 
 ## Technologies Used
 
-- **Backend:** Laravel 10  
-- **Frontend:** Bootstrap 5, jQuery, AJAX  
+- **Backend:** Laravel 
+- **Frontend:** Bootstrap, jQuery 2.2.4, AJAX  
 - **Authentication & Authorization:** Spatie Laravel Permission  
-- **Database:** MySQL (or any relational database supported by Laravel)  
+- **Database:** MySQL   
 
 ---
 
@@ -50,23 +50,27 @@ Follow these steps to deploy the project:
 ```bash
 git clone <your-repo-url>
 cd <your-project-directory>
+```
 2. Install PHP Dependencies
-bash
-Copy code
+```bash
 composer install
+```
 3. Install Node.js Dependencies & Compile Assets
-bash
-Copy code
+```bash
 npm install
 npm run dev
-For production, use: npm run build
+```
+For production, use: 
+```bash
+npm run build
+```
 
 4. Setup Environment File
-bash
-Copy code
+```bash
 cp .env.example .env
+```
 Edit .env with your database and environment settings:
-
+```bash
 env
 Copy code
 APP_NAME="Construction MIS"
@@ -77,28 +81,29 @@ DB_PORT=3306
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+```
 5. Generate Application Key
-bash
-Copy code
+```bash
 php artisan key:generate
+```
 6. Run Migrations & Seeders
-bash
-Copy code
+```bash
 php artisan migrate --seed
+```
 This will create all the necessary tables and seed roles & admin user if configured in seeders.
 
 7. Storage Link
 Create a symbolic link to access uploaded files:
 
-bash
-Copy code
+```bash
 php artisan storage:link
+```
 8. Serve the Application
 For local development:
 
-bash
-Copy code
+```bash
 php artisan serve
+```
 Visit http://localhost:8000 in your browser.
 
 User Roles & Permissions
@@ -127,4 +132,4 @@ Push to the branch (git push origin feature/YourFeature)
 Open a Pull Request
 
 License
-MIT License © [Your Name]
+MIT License © Wali Mohseni
