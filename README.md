@@ -48,7 +48,9 @@ Follow these steps to deploy the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/wmohseni7/ConstructionRealStateAgency
+```
+```
 cd <your-project-directory>
 ```
 2. Install PHP Dependencies
