@@ -38,4 +38,10 @@ npm install
 # Compile frontend assets
 npm run dev
 
-# Start
+# Start the Laravel development server
+php artisan serve
+
+# Visit your app at http://localhost:8000
+
+# 🧑‍💻 To log in, use the email and password defined in:
+# database/seeders/CreateAdminUserSeeder.php
