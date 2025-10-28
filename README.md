@@ -45,3 +45,4 @@ php artisan serve
 
 # 🧑‍💻 To log in, use the email and password defined in:
 # database/seeders/CreateAdminUserSeeder.php
+#Language: Persian, English version under developpement
