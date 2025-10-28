@@ -1,3 +1,8 @@
+## 🚀 Launching the Laravel Project
+
+Follow these steps to get the Laravel app running locally:
+
+```bash
 # Navigate into your project directory
 cd ConstructionRealStateAgency
 
@@ -33,9 +38,4 @@ npm install
 # Compile frontend assets
 npm run dev
 
-# Start the Laravel development server
-php artisan serve
-
-# Visit your app at http://localhost:8000
-
-#To login put use the email and password mentioned in the Database->seeders->CreateAdminUserSeeder.php
+# Start
